@@ -1,1 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2022-12-30T03:01:23.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="PHDogxZ3kwPcBfsVuyPm" type="github"><diagram id="RdIUQeOOo-xH5p-0zgaV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-30T03:25:02.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.4" etag="drwU6oAvAmmkXXZEuNkx" type="github">
+  <diagram id="vyW8kBMpRnoQBZcjdH3T" name="第 1 页">
+    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-1" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="eX5lSfxIoN2jZX93_NEf-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="510" as="sourcePoint" />
+            <mxPoint x="500" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-4" value="m_ids&lt;br&gt;当前活跃的&lt;br&gt;事务id列表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="530" as="sourcePoint" />
+            <mxPoint x="200" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.6667" y="-30" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="530" as="sourcePoint" />
+            <mxPoint x="400" y="470" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eX5lSfxIoN2jZX93_NEf-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-8" value="min_trx_id&lt;br&gt;列表中的最小值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eX5lSfxIoN2jZX93_NEf-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-9" value="max_trx_id&lt;br&gt;系统分配的下一个事务id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-11" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="490" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-14" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="490" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-13" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="490" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-15" value="" style="endArrow=none;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="eX5lSfxIoN2jZX93_NEf-12" target="eX5lSfxIoN2jZX93_NEf-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="510" as="sourcePoint" />
+            <mxPoint x="500" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-12" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="490" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="eX5lSfxIoN2jZX93_NEf-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="510" as="sourcePoint" />
+            <mxPoint x="320" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-17" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="475" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-18" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="475" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-20" value="8" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="475" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-21" value="11" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="475" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-25" value="不是最大值！！&lt;br&gt;当前最大11，但是事务11可能提交。&lt;br&gt;是系统下一个分配的id&lt;br&gt;（比列表中的肯定大）" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="550" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-27" value="trx_id&lt;br&gt;当前事务访问的&lt;br&gt;另一个事务的id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="157.5" y="280" width="325" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-28" value="trx_id&amp;lt;min_trx_id&lt;br&gt;trx_id比当前列表的最小值还要小&lt;br&gt;说明该trx_id的事务已提交&lt;br&gt;当前事务可访问该trx_id的事务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry y="420" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-29" value="trx_id&amp;gt;max_trx_id&lt;br&gt;trx_id的事务之前不活跃，但是之后活跃，也就是说之后开启事务还未提交，所以不能访问" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="470" y="420" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eX5lSfxIoN2jZX93_NEf-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX5lSfxIoN2jZX93_NEf-30" value="trx_id处于列表值之间，需判断trx_id的值是否在列表中（列表的值不连续，是散点）&lt;br&gt;若在其中则代表活跃，不可访问" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="680" width="240" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
